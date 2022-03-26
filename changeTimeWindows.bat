@@ -2,7 +2,7 @@
 :: CREATED BY ROLANDO JOSE GARCIA ESCOBAR
 :: 25/03/2022
 :: YOU CAN  CREATE A  TASK IN WINDOWS 
-:: subtract 3 minutes from the current time
+:: subtract 5 minutes from the current time
 
 @echo off
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
